@@ -32,13 +32,15 @@ body{
 	 background:
 	 url("/static/images/index/bg.png") no-repeat center/cover;
 	  display: grid;
-	  grid-template-rows: 80rpx 1fr 120rpx;
+	  grid-template-rows: 96rpx 1fr 120rpx;
 }
 .page-content{
   overflow-y: auto;
+  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   overflow-scrolling: touch;
   padding: 20rpx;
+  box-sizing: border-box;
 }
 .authen-gray{
 	filter: grayscale(100%);
