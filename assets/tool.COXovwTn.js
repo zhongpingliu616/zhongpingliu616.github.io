@@ -1,1 +1,0 @@
-import{a as t}from"./index.DD5Tg9IJ.js";function r(r){if(!r)return"";if("object"==typeof r){const t=r.url||r.image||r.path||r.src;if(!t)return"";r=t}const i=String(r).trim();return i?i.startsWith("http")||i.startsWith("data:image")?i:t.imgUrl+"/"+i.replace(/^\/+/,""):""}export{r as g};
