@@ -1,0 +1,1 @@
+import{C as s,O as o,G as a,z as n}from"./index-k1hY-fi1.js";function t(){return!!s("token")}function c(){const t=s("account")||"",c=s("password")||"";o(),a("account",t),a("password",c),n({url:"/pages/login"})}export{t as c,c as l};

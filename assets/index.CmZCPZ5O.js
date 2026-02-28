@@ -1,0 +1,1 @@
+import{aV as s}from"./index-vfEMzM-K.js";const e=()=>s("/embroid/message/lists"),a=e=>s("/embroid/message/details",e);export{a,e as m};
